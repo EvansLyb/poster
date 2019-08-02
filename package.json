@@ -8,7 +8,16 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "csv": "^5.1.1",
+    "csvtojson": "^2.0.10",
+    "dom-to-image": "^2.6.0",
+    "echarts": "^4.2.1",
+    "file-saver": "^2.0.2",
+    "html-to-image": "^0.1.1",
+    "jszip": "^3.2.2",
+    "papaparse": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-echarts": "^4.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
