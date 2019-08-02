@@ -46,7 +46,7 @@
 
 <script>
 const Papa = require('papaparse')
-const domToImage = require('html-to-image')
+const domToImage = require('dom-to-image')
 const FileSaver = require('file-saver')
 const JSZip = require('jszip')
 import Poster from './Poster'

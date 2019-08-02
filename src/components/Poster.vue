@@ -1,7 +1,7 @@
 <template>
   <div class="poster">
     <div class="topper">
-      <img src="../assets/topper.png" alt="">
+      <img :src="topperImg" alt="">
       <div class="userInfo name">{{ name }}</div>
       <div class="userInfo age">{{ age }}</div>
       <div class="userInfo grade">{{ grade }}</div>
@@ -23,7 +23,7 @@
             <div class="redRow" v-bind:style="{left: redRowPercentage + '%', backgroundImage:`url(${rowImg})`, backgroundSize: '100% 100%'}"></div>
           </div>
           <div class="redBar"></div>
-          <img src="../assets/character.png"/>
+          <img :src="characterImg"/>
           <div class="bottomSummary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ characterSummary }}</div>
         </div>
         <div class="cable">
@@ -162,12 +162,14 @@ export default {
     return {
       initial: true,
       rendering: true,
-      bgImgUrl: require('../assets/background.png'),
-      boxImg1: require('../assets/box_1.png'),
-      boxImg3: require('../assets/box_3.png'),
-      bowImg: require('../assets/bow.png'),
-      rowImg: require('../assets/row.png'),
-      signImg: require('../assets/sign.png'),
+      topperImg: 'http://static.chreta.com/topper.png',
+      bgImgUrl: 'http://static.chreta.com/background.png',
+      boxImg1: 'http://static.chreta.com/box_1.png',
+      boxImg3: 'http://static.chreta.com/bg_3.png',
+      bowImg: 'http://static.chreta.com/bow.png',
+      rowImg: 'http://static.chreta.com/row.png',
+      signImg: 'http://static.chreta.com/sign.png',
+      characterImg: 'http://static.chreta.com/character.png',
       iconImg1: require('../assets/icon_1.png'),
       iconImg2: require('../assets/icon_2.png'),
       iconImg3: require('../assets/icon_3.png'),
