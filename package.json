@@ -15,7 +15,7 @@
     "file-saver": "^2.0.2",
     "html-to-image": "^0.1.1",
     "jszip": "^3.2.2",
-    "papaparse": "^5.0.1",
+    "papaparse": "^5.2.0",
     "vue": "^2.6.10",
     "vue-echarts": "^4.0.3"
   },
